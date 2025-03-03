@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kumpulan resep masakan lezat, sehat, dan mudah dibuat di rumah. Temukan berbagai resep dari masakan tradisional hingga internasional.">
+    <meta name="keywords" content="resep masakan, resep makanan, masakan tradisional, makanan sehat, makanan lezat">
+    <meta name="author" content="Kumpulan Resep Masakan">
+    <meta property="og:title" content="Kumpulan Resep Masakan">
+    <meta property="og:description" content="Temukan resep masakan lezat dan mudah dibuat di rumah.">
+    <meta property="og:image" content="https://source.unsplash.com/400x250/?food">
+    <meta property="og:url" content="https://resepmasakan.com">
+    <title>Kumpulan Resep Masakan - Temukan Inspirasi Memasak</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-200 text-gray-900">
+    
+    <!-- Header Navbar -->
+    <header class="bg-white shadow-md p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Kumpulan Resep Masakan</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#beranda" class="text-gray-800 hover:underline">Beranda</a></li>
+                    <li><a href="#resep" class="text-gray-800 hover:underline">Resep</a></li>
+                    <li><a href="#kategori" class="text-gray-800 hover:underline">Kategori</a></li>
+                    <li><a href="#kontak" class="text-gray-800 hover:underline">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <main class="container mx-auto p-6">
+
+        <!-- Beranda section -->
+        <section id="beranda" class="bg-white shadow-md p-6 rounded-lg text-center">
+            <h2 class="text-3xl font-semibold mb-2">Temukan Resep Masakan Lezat</h2>
+            <p class="text-gray-700">Dapatkan inspirasi memasak dengan berbagai resep dari berbagai belahan dunia.</p>
+        </section>
+
+        <!-- Kategori section -->
+        <section id="kategori" class="mt-6">
+            <h2 class="text-2xl font-semibold mb-4">Kategori Resep</h2>
+            <ul class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <li><a href="#masakan-indonesia" class="block bg-white shadow-md p-4 rounded-lg hover:bg-gray-100 text-center">Masakan Indonesia</a></li>
+                <li><a href="#makanan-sehat" class="block bg-white shadow-md p-4 rounded-lg hover:bg-gray-100 text-center">Makanan Sehat</a></li>
+                <li><a href="#dessert" class="block bg-white shadow-md p-4 rounded-lg hover:bg-gray-100 text-center">Dessert</a></li>
+            </ul>
+        </section>
+
+        <!-- Resep section -->
+        <section id="resep" class="mt-6">
+            <h2 class="text-2xl font-semibold mb-4">Resep Terbaru</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- artikel 1 -->
+                <article class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <figure>
+                        <img src="https://source.unsplash.com/400x250/?food" alt="Nasi Goreng Spesial" class="w-full h-40 object-cover">
+                        <figcaption class="p-2 text-gray-600 text-sm">Nasi Goreng Spesial Telur Bebek</figcaption>
+                    </figure>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Nasi Goreng Spesial</h3>
+                        <time datetime="PT30M" class="block text-gray-500">Waktu memasak: 30 menit</time>
+                        <p class="mt-2 text-gray-700">Nasi goreng spesial dengan bumbu kaya rasa dan mudah dibuat di rumah.</p>
+                        <a href="#" class="mt-4 inline-block text-blue-500 font-semibold hover:underline">Lihat Resep</a>
+                    </div>
+                </article>
+
+                <!-- artikel 2 -->
+                <article class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <figure>
+                        <img src="https://source.unsplash.com/400x250/?food" alt="Salad Buah Naga" class="w-full h-40 object-cover">
+                        <figcaption class="p-2 text-gray-600 text-sm">Salad Buah Naga Spesial</figcaption>
+                    </figure>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Salad Buah Naga Spesial</h3>
+                        <time datetime="PT20M" class="block text-gray-500">Waktu membuat: 20 menit</time>
+                        <p class="mt-2 text-gray-700">Salad buah naga spesial dengan buah yang kaya akan vitamin dan menyehatkan.</p>
+                        <a href="#" class="mt-4 inline-block text-blue-500 font-semibold hover:undeline">Lihat Resep</a>
+                    </div>
+                </article>
+
+                <!-- artikel 3 -->
+                <article class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <figure>
+                        <img src="https://source.unsplash.com/400x250/?food" alt="Bebek Rendang Spesial" class="w-full h-40 object-cover">
+                        <figcaption class="p-2 text-gray-600 text-sm">Bebek Rendang Spesial</figcaption>
+                    </figure>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Bebek Rendang Spesial</h3>
+                        <time datetime="PT40M" class="block text-gray-500">Waktu memasak: 40 menit</time>
+                        <p class="mt-2 text-gray-700">Bebek rendang spesial dengan bumbu rempah-rempah yang kaya rasa dan mudah dibuat di rumah.</p>
+                        <a href="#" class="mt-4 inline-block text-blue-500 font-semibold hover:undeline">Lihat Resep</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="bg-white shadow-md p-6 mt-10 text-center">
+        <section id="kontak">
+            <h2 class="text-xl font-semibold">Hubungi Kami</h2>
+            <p>Email: <a href="mailto:info@resepmakanan.com" class="text-blue-500 hover:underline">info@resepmakanan.com</a></p>
+            <p>Ikuti kami di media sosial: <a href="#" class="text-blue-500 hover:underline">Instagram</a> | <a href="#" class="text-blue-500 hover:underline">Tiktok</a></p>
+        </section>
+        <p class="text-gray-700 mt-4">&copy; 2025 Kumpulan Resep Masakan | Resepnya Bunda</p>
+    </footer>
+</body>
+</html>
